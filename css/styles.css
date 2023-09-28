@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Source Serif 4', serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  color: #3D5065;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+/* Css for Alert Section */
+.alert-section .alert,
+.alert-section .alert a {
+  background-color: #3D4F61;
+  font-size: 17px;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Css for Navbar */
+
+.nav-border {
+  border-bottom: 1px solid #E8E8E8;
+}
+
+.navbar-brand {
+  font-size: 28px;
+}
+
+.userIcon {
+  height: fit-content;
+}
+
+.animate-btn {
+  width: 241px !important;
+  height: 64px;
+}
+
+.nav-right .button,
+.collapse .button {
+  background-color: #3D5065;
+  border-radius: 48px;
+  display: block;
+  transition: all ease-out 0.3s;
+  border: 1px solid #3D5065;
+  font-size: 21px;
+}
+
+.nav-right .button i,
+.collapse .button i {
+  color: #3D5065;
+}
+
+.nav-arrow {
+  transition: all ease 0.3s;
+}
+
+.animate-btn:hover .button {
+  font-size: 18px;
+  padding: 4px 8px !important;
+  display: inline-block;
+  background-color: #fff;
+  color: #3D5065 !important;
+}
+
+.animate-btn:hover .animate-btn-span {
+  display: none;
+}
+
+.animate-btn:hover .nav-arrow {
+  margin-left: 8px !important;
+  background-color: #3D5065 !important;
+  color: #fff;
+}
+
+
+/* Css for Bathroom Section  */
+
+.bathroom-bg {
+  width: 100%;
+  /* height: 717px; */
+  height: auto;
+  /* background: url('../images/Group\ 654.png') no-repeat padding-box; */
+  /* background-size: contain; */
+  background: url('../images/Group\ 654.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bath-card .card {
+  width: unset !important;
+  max-width: 610px;
+}
+
+.bath-card .card-body {
+  padding: 43px;
+}
+
+.bath-card .card-text {
+  font-size: 24px;
+}
+
+.bath-card h5,
+h6 {
+  font-size: 48px;
+}
+
+.bath-card ul li {
+  font-family: 'Poppins', sans-serif;
+}
+
+.bath-card .card-price,
+.moneyBack-bg .card-price {
+  font-size: 72px;
+}
+
+.buyNow-btn {
+  background-color: #3D5065;
+  border: 1px solid #3D5065;
+  font-family: 'Poppins', sans-serif;
+  padding: 21.5px 0px;
+  transition: all ease 0.2s;
+  font-size: 24px;
+}
+
+.buyNow-btn:hover {
+  background-color: transparent !important;
+  color: #3D5065 !important;
+}
+
+.bath-card .card-bottom span {
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/*Css for Blitz Section  */
+.blitz-body {
+  padding: 125px 0px;
+}
+
+.blitz-body p {
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+/* Css for Money Back Section */
+.moneyBack-bg {
+  padding: 66px 0px;
+  background: transparent linear-gradient(91deg, #B6D8DC 0%, #CEECEE 60%, #CDEAEE 72%, #CCE9ED 81%, #BFE0E5 100%) 0% 0% no-repeat padding-box;
+}
+
+.moneyBack-img {
+  background-size: contain;
+}
+
+.moneyBack-img img {
+  width: 100%;
+}
+
+.moneyBack-bg h1 {
+  font-size: 48px;
+}
+
+.moneyBack-bg ul li {
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.moneyBack-bg .card-bottom button {
+  width: 85%;
+}
+
+.moneyBack-bg .card-bottom span {
+  font-family: 'Poppins', sans-serif;
+}
+
+.moneyBack-bottom h5 {
+  font-size: 48px;
+}
+
+.moneyBack-bottom-cards {
+  width: fit-content;
+}
+
+.moneyBack-bottom-cards .card-img {
+  height: 520px;
+  width: 350px;
+}
+
+.moneyBack-bottom-cards .row .col:nth-child(1) .card-img {
+  background-image: url('../images/PF_Sept09497FLORALMAX.png');
+}
+
+.moneyBack-bottom-cards .row .col:nth-child(2) .card-img {
+  background-image: url('../images/PF_Sept09497MAX.png');
+}
+
+.moneyBack-bottom-cards .row .col:nth-child(3) .card-img {
+  background-image: url('../images/PF_Sept09497CTIRUSMAX.png');
+}
+
+.addToCart-btn {
+  background-color: #3D5065;
+  border: 1px solid #3D5065;
+  font-family: 'Poppins', sans-serif;
+}
+
+.moneyBack-bottom-cards .card-body .card-price {
+  font-size: 40px;
+}
+
+.moneyBack-bottom-cards .card-body h4 {
+  font-size: 36px;
+}
+
+.moneyBack-bottom-cards .card-body h5,
+.moneyBack-bottom-cards .card-body i {
+  font-size: 20px !important;
+}
+
+/* Css For Play Image Section */
+.play-image {
+  background: url('../images/Group 662.png') no-repeat;
+  background-size: cover;
+  height: 670px;
+  padding-top: 170px;
+}
+
+.play-image h5 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+/* Css for Designe Section */
+.designe-section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.designe-section h2 {
+  font-size: 48px;
+}
+
+.designe-section .card {
+  max-width: 290px;
+}
+
+.designe-cards {
+  padding-top: 84px;
+}
+
+.designe-cards .card-body,
+.designe-cards .card-body h5 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.designe-cards .card-body h5 {
+  font-size: 36px;
+}
+
+.designe-cards .card-body .card-text {
+  font-size: 24px;
+}
+
+.different {
+  margin-top: 82px;
+}
+
+.different table,
+.different .cross {
+  font-size: 18px;
+  color: #3D5065;
+}
+
+.different .cross,
+.table tbody {
+  font-size: 22px;
+}
+
+.table td:first-child,
+.table th:first-child {
+  width: 80%;
+}
+
+.table tbody td,
+.table th {
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #E6F2FE;
+}
+
+/* .table tbody tr{
+  display: flex;
+  align-items: center;
+  flex-basis: 100%;
+} */
+
+.purdy {
+  width: fit-content;
+  top: -5%;
+  right: 22%;
+  border: 1px solid #707070;
+  font-size: 22px;
+  background: #ffffff;
+}
+
+.checkMark {
+  margin-top: 12px;
+}
+
+/* Css for Extra Section */
+.extra-bg {
+  background-color: #B6D8DC;
+}
+
+.extra-bg h2 {
+  font-size: 48px;
+}
+
+.extra-bg h4 {
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.extra-bottom h5 {
+  font-size: 48px;
+}
+
+.extra-bottom p {
+  font-size: 24px;
+}
+
+/* @media (Max-width:576px) {
+  .moneyBack-bottom-cards .card-img{
+    width: auto;
+  }
+} */
