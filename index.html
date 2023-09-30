@@ -25,7 +25,7 @@
 <body>
   <div class="main">
     <section class="alert-section">
-      <div class="alert text-center text-white" role="alert">
+      <div class="alert text-center text-white rounded-0" role="alert">
         Get A Free Spray Bottle ( £15 Value) <a href="#" class="alert-link text-white fw-normal">SHOP NOW</a>.
       </div>
     </section>
@@ -35,12 +35,15 @@
           <div class="container px-0">
             <nav class="navbar navbar-expand-lg navbar-light">
               <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                   aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                  <i class="ri-menu-line hamburger-menu-icon"></i>
                 </button>
-                <a class="navbar-brand" href="#">Purdy & Figg</a>
+                <a class="navbar-brand me-0" href="#">Purdy & Figg</a>
+                <div class="ms-5 cart-icon d-block d-lg-none">
+                  <i class="ri-shopping-cart-2-line"></i>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                   <ul class="navbar-nav ms-auto gap-5 mb-2 mb-lg-0 align-items-center">
                     <li class="nav-item">
@@ -58,12 +61,12 @@
                         <i class="ri-arrow-right-s-line bg-white nav-arrow rounded-circle ms-3"></i>
                       </a>
                     </li>
-                    <li>
+                    <li class="user-icon">
                       <i class="ri-user-line"></i>
                     </li>
                   </ul>
                 </div>
-                <div class="ms-5">
+                <div class="ms-5 cart-icon d-none d-lg-block">
                   <i class="ri-shopping-cart-2-line"></i>
                 </div>
               </div>
@@ -78,39 +81,37 @@
             <i class="ri-star-fill"></i>
             <i class="ri-star-fill"></i>
           </div>
-          <h5 class="fs-6 mb-0">Over 5300+ reviews</h5>
+          <h5 class="mb-0">Over 5300+ reviews</h5>
         </div>
       </div>
     </section>
     <section class="bathroom-cleaner-section">
-      <div class="container-fluid px-0">
-        <div class="bathroom-bg d-flex align-items-center">
-          <div class="container-fluid">
-            <div class="container">
-              <div class="bath-card my-5">
-                <div class="card" style="width: 18rem;">
-                  <div class="card-body">
-                    <h5 class="card-title">Get a spa-scented limescale-free gleam with</h5>
-                    <h6 class="card-subtitle mb-2 fw-bold">NEW Bathroom Bliss</h6>
-                    <div class="card-text">
-                      <p class="fw-bold">
-                        Why you’ll love Bathroom Bliss:
-                      </p>
-                      <ul>
-                        <li>Tackles limescale, fast</li>
-                        <li>Leaves surfaces streak-free & glistening. </li>
-                        <li>Smells like a blissed-out spa.</li>
-                        <li>Safe for you, and the planet.</li>
-                      </ul>
-                    </div>
-                    <div class="card-bottom text-center">
-                      <div class="card-price fw-bold">£29.00</div>
-                      <button class="buyNow-btn w-100 text-white rounded-pill">Buy Now</button>
-                      <span class="d-block mt-2">
-                        100% secure checkout
-                        <span class="ms-2"> Money-back guarantee</span>
-                      </span>
-                    </div>
+      <div class="w-100">
+        <div class="bathroom-bg d-flex align-items-center position-relative">
+          <div class="container">
+            <div class="bath-card my-3 my-lg-5">
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title text-center text-lg-start">Get a spa-scented limescale-free gleam with</h5>
+                  <h6 class="card-subtitle mb-2 fw-bold text-center text-lg-start">NEW Bathroom Bliss</h6>
+                  <div class="card-text">
+                    <p class="fw-bold">
+                      Why you’ll love Bathroom Bliss:
+                    </p>
+                    <ul>
+                      <li>Tackles limescale, fast</li>
+                      <li>Leaves surfaces streak-free & glistening. </li>
+                      <li>Smells like a blissed-out spa.</li>
+                      <li>Safe for you, and the planet.</li>
+                    </ul>
+                  </div>
+                  <div class="card-bottom text-center">
+                    <div class="card-price fw-bold">£29.00</div>
+                    <button class="buyNow-btn py-3 w-100 text-white rounded-pill">Buy Now</button>
+                    <span class="d-block mt-2">
+                      100% secure checkout
+                      <span class="ms-2"> Money-back guarantee</span>
+                    </span>
                   </div>
                 </div>
               </div>
@@ -120,52 +121,57 @@
       </div>
     </section>
     <section class="blitz-section">
-      <div class="container px-0">
-        <div class="blitz-body text-center">
+      <div class="container">
+        <div class="blitz-body text-center px-4 px-lg-0">
           <h3 class="d-inline-block">
             <span class="fw-bold">Blitz</span> hard water marks. <span class="fw-bold">Bliss out</span> in your <span
               class="fw-bold">very own spa.</span>
           </h3>
           <p class="m-auto mt-4">
             Designed specially for your bathroom by Purdy,
-            Charlotte and our in-house chemist Dr Anna the non-toxic formula tackles hard water and limescale marks fast
-            (and without the elbow grease). All while leaving your bath, mirror, tiles and taps streak-free… and
-            positively gleaming.
+            Charlotte and our in-house chemist Dr Anna <span class="d-block d-lg-inline mt-5">the non-toxic formula
+              tackles hard water and limescale
+              marks fast
+              (and without the elbow grease). All while leaving your bath, mirror, tiles and taps streak-free… and
+              positively gleaming.</span>
           </p>
-          <div class="brand-images d-flex align-items-center justify-content-center pt-5 mt-5 gap-5">
+          <div class="brand-images d-lg-flex align-items-center justify-content-center pt-5 mt-5 gap-5">
             <div>
               <img src="./images/Group 106.png" class="img-fluid" alt="">
             </div>
-            <div class="mt-4">
-              <img src="./images/daily-mail.png" class="img-fluid" alt="">
-            </div>
-            <div class="ms-5 ps-5">
-              <img src="./images/Group 107.png" class="img-fluid" alt="">
+            <div class="d-flex align-items-center justify-content-center mt-4 mt-lg-0">
+              <div class="mt-lg-4">
+                <img src="./images/daily-mail.png" class="img-fluid" alt="">
+              </div>
+              <div class="ms-5 ps-5">
+                <img src="./images/Group 107.png" class="img-fluid" alt="">
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
     <section class="money-back-section">
-      <div class="moneyBack-bg w-100">
-        <div class="container">
-          <div class="moneyBack-topSection d-lg-flex align-items-center">
+      <div class="moneyBack-bg w-100 position-relative">
+        <div class="container px-0 px-lg-3">
+          <div class="moneyBack-topSection d-flex flex-column flex-column-reverse flex-lg-row align-items-center">
             <div>
-              <h1>
-                <span class="fw-bold d-block">Bathroom Bliss</span>
+              <h1 class="text-center text-lg-start">
+                <span class="fw-bold d-lg-block">Bathroom Bliss</span>
                 from Purdy & Figg
               </h1>
-              <div class="mt-4">
-                <h5>Includes: </h5>
-                <ul class="ps-4">
+              <div
+                class="mt-lg-4 trans-sm-negative bg-white bg-md-transparent bg-lg-transparent mx-3 mx-lg-0 p-4 p-lg-0 rounded rounded-lg-0">
+                <h5 class="mt-2 mt-lg-0 fw-bold">Includes: </h5>
+                <ul class="ps-3 ps-lg-4">
                   <li class="mt-3">New Bathoom Bliss Bottle for Life with reusable silicone base</li>
                   <li class="mt-3"> 3x 20ml Lemongrass Bathroom eco-concentrates</li>
                   <li class="mt-3">Branded microfibre cloth</li>
                   <li class="mt-3">Money-back guarantee</li>
                 </ul>
                 <div class="card-bottom">
-                  <div class="card-price fw-bold">£29.00</div>
-                  <button class="buyNow-btn py-4 text-white rounded-pill">Buy Now</button>
+                  <div class="card-price fw-bold text-center text-lg-start">£29.00</div>
+                  <button class="buyNow-btn py-3 text-white rounded-pill">Buy Now</button>
                   <span class="d-block mt-2 text-center">
                     100% secure checkout
                     <span class="ms-2"> Money-back guarantee</span>
@@ -173,22 +179,22 @@
                 </div>
               </div>
             </div>
-            <div class="moneyBack-img ps-4">
-              <img src="./images/Group 652.png" class="img-fluid" alt="">
+            <div class="moneyBack-img ps-lg-4">
+              <img src="./images/Group 652.png" class="img-fluid d-none d-lg-block" alt="">
             </div>
           </div>
-          <!-- <div class="moneyBack-bottom mt-5">
-            <h5 class="text-center">Add extras to your cart</h5>
-            <div class="moneyBack-bottom-cards m-auto mt-5">
-              <div class="row row-cols-1 row-cols-md-3 g-5">
-                <div class="col">
-                  <div class="card h-100 bg-transparent border-0">
-                    <div class="card-img p-3 d-flex align-items-end">
-                      <button class="addToCart-btn w-100 text-white py-3 rounded-pill">Add to Cart</button>
-                    </div>
-                    <div class="card-body px-0">
-                      <h4 class="card-title">Starter Kit</h4>
-                      <p class="card-text">
+          <div class="money-bottom mt-5 px-3">
+            <h4 class="text-center">Add extras to your cart</h4>
+            <div class="money-cards d-flex flex-wrap align-items-center justify-content-center gap-5 mt-4">
+              <div class="d-flex align-items-center gap-3">
+                <div class="money-card">
+                  <div class="money-img d-flex align-items-end p-2 p-md-3">
+                    <button class="addToCart-btn py-2 py-md-3 w-100 text-white rounded-pill">Add to
+                      Cart</button>
+                  </div>
+                  <div class="card-body px-0">
+                    <h4 class="card-title">Starter Kit</h4>
+                    <div class="card-text">
                       <div class="d-flex align-items-center gap-3">
                         <div class="star">
                           <i class="ri-star-fill"></i>
@@ -200,18 +206,17 @@
                         <h5 class="fs-6 mb-0">800 reviews</h5>
                       </div>
                       <div class="card-price">£45.00</div>
-                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card h-100 bg-transparent border-0">
-                    <div class="card-img p-3 d-flex align-items-end">
-                      <button class="addToCart-btn w-100 text-white py-3 rounded-pill">Add to Cart</button>
-                    </div>
-                    <div class="card-body px-0">
-                      <h4 class="card-title">Starter Kit</h4>
-                      <p class="card-text">
+                <div class="money-card">
+                  <div class="money-img d-flex align-items-end p-2 p-md-3">
+                    <button class="addToCart-btn py-2 py-md-3 w-100 text-white rounded-pill">Add to
+                      Cart</button>
+                  </div>
+                  <div class="card-body px-0">
+                    <h4 class="card-title">Starter Kit</h4>
+                    <div class="card-text">
                       <div class="d-flex align-items-center gap-3">
                         <div class="star">
                           <i class="ri-star-fill"></i>
@@ -223,18 +228,17 @@
                         <h5 class="fs-6 mb-0">800 reviews</h5>
                       </div>
                       <div class="card-price">£45.00</div>
-                      </p>
                     </div>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card h-100 bg-transparent border-0">
-                    <div class="card-img p-3 d-flex align-items-end">
-                      <button class="addToCart-btn w-100 text-white py-3 rounded-pill">Add to Cart</button>
-                    </div>
-                    <div class="card-body px-0">
-                      <h4 class="card-title">Starter Kit</h4>
-                      <p class="card-text">
+                <div class="money-card d-none d-xl-inline">
+                  <div class="money-img d-flex align-items-end p-2 p-md-3">
+                    <button class="addToCart-btn py-2 py-md-3 w-100 text-white rounded-pill">Add to
+                      Cart</button>
+                  </div>
+                  <div class="card-body px-0">
+                    <h4 class="card-title">Starter Kit</h4>
+                    <div class="card-text">
                       <div class="d-flex align-items-center gap-3">
                         <div class="star">
                           <i class="ri-star-fill"></i>
@@ -246,28 +250,73 @@
                         <h5 class="fs-6 mb-0">800 reviews</h5>
                       </div>
                       <div class="card-price">£45.00</div>
-                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="money-card-sm d-flex align-items-center gap-3 d-xl-inline d-xl-none">
+                <div class="money-card">
+                  <div class="money-img d-flex align-items-end p-2 p-md-3">
+                    <button class="addToCart-btn py-2 py-md-3 w-100 text-white rounded-pill">Add to
+                      Cart</button>
+                  </div>
+                  <div class="card-body px-0">
+                    <h4 class="card-title">Starter Kit</h4>
+                    <div class="card-text">
+                      <div class="d-flex align-items-center gap-3">
+                        <div class="star">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <h5 class="fs-6 mb-0">800 reviews</h5>
+                      </div>
+                      <div class="card-price">£45.00</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="money-card">
+                  <div class="money-img d-flex align-items-end p-2 p-md-3">
+                    <button class="addToCart-btn py-2 py-md-3 w-100 text-white rounded-pill">Add to
+                      Cart</button>
+                  </div>
+                  <div class="card-body px-0">
+                    <h4 class="card-title">Starter Kit</h4>
+                    <div class="card-text">
+                      <div class="d-flex align-items-center gap-3">
+                        <div class="star">
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                          <i class="ri-star-fill"></i>
+                        </div>
+                        <h5 class="fs-6 mb-0">800 reviews</h5>
+                      </div>
+                      <div class="card-price">£45.00</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </section>
     <section class="playImage-section">
       <div class="w-100">
         <div class="play-image text-center text-white">
-          <h5>Find out why Charlotte & Purdy created Bathroom Bliss</h5>
+          <h5 class="px-3">Find out why Charlotte & Purdy created Bathroom Bliss</h5>
         </div>
       </div>
     </section>
     <section class="designe-section">
       <div class="container">
         <h2 class="text-center fw-normal">Designed to make your bathroom sparkle</h2>
-        <div class="designe-cards">
-          <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="designe-cards px-2 px-lg-0">
+          <div class="row row-cols-2 row-cols-lg-4 g-4">
             <div class="col">
               <div class="card border-0 bg-transparent">
                 <img src="./images/Mask Group 39.png" class="card-img-top" alt="...">
@@ -308,118 +357,114 @@
           </div>
         </div>
         <div class="different">
-          <h2 class="text-center">We really are different</h2>
+          <h2 class="text-center">We really are <span class="d-block d-lg-inline">different</span></h2>
           <div class="position-relative">
             <table class="table">
               <thead>
                 <tr>
                   <th scope="col"></th>
-                  <th scope="col" class="text-center fw-normal">Method<br /> + Ecover</th>
+                  <th scope="col" class="text-center border-bottom-0 w-0"><img src="./images/Group 641.png" alt=""></th>
+                  <th scope="col" class="text-center fw-normal pt-0 pt-lg-2">Method <span class="d-lg-block"> +
+                      Ecover</span></th>
                   <th scope="col" class="text-center fw-normal">Flash</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>Naturally Scented</td>
+                  <td class="text-center"><i class="ri-checkbox-circle-fill"></i></td>
                   <td class="text-center"><i class="ri-close-circle-line cross"></i></td>
                   <td class="text-center"><i class="ri-close-circle-line cross"></i></td>
                 </tr>
                 <tr>
                   <td>Plastic Free</td>
+                  <td class="text-center"><i class="ri-checkbox-circle-fill"></i></td>
                   <td class="text-center"><i class="ri-close-circle-line cross"></i></td>
                   <td class="text-center"><i class="ri-close-circle-line cross"></i></td>
                 </tr>
                 <tr>
                   <td>Streak-Free</td>
+                  <td class="text-center"><i class="ri-checkbox-circle-fill"></i></td>
                   <td class="text-center"><i class="ri-close-circle-line cross"></i></td>
                   <td class="text-center"><i class="ri-close-circle-line cross"></i></td>
                 </tr>
                 <tr>
                   <td>Made in the UK</td>
+                  <td class="text-center"><i class="ri-checkbox-circle-fill"></i></td>
                   <td class="text-center"><i class="ri-close-circle-line cross"></i></td>
                   <td class="text-center"><i class="ri-close-circle-line cross"></i></td>
                 </tr>
               </tbody>
             </table>
-            <div class="purdy py-3 px-2 d-flex flex-column align-items-center position-absolute">
-              <div>
-                <img src="./images/Group 641.png" alt="">
-              </div>
-              <div class="checkMark d-flex flex-column gap-3">
-                <i class="ri-checkbox-circle-fill"></i>
-                <i class="ri-checkbox-circle-fill"></i>
-                <i class="ri-checkbox-circle-fill"></i>
-                <i class="ri-checkbox-circle-fill"></i>
-              </div>
-            </div>
           </div>
         </div>
       </div>
     </section>
     <section class="extra-benefit-section">
-      <div class="container-fluid px-0">
-        <div class="extra-bg py-5">
-          <div class="container">
-            <h2 class="text-center fw-normal">Extra Benefits</h2>
-            <h4 class="text-center fw-normal">Money Back Gaurantee if it doesn’t tackle bathroom issues</h4>
-            <div class="designe-cards">
-              <div class="row row-cols-1 row-cols-md-4 g-4">
-                <div class="col">
-                  <div class="card border-0 bg-transparent">
-                    <img src="./images/Layer_1-2.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center px-0">
-                      <h5 class="card-title">Money Back Guarantee</h5>
-                      <p class="card-text">No questions asked money back guarantee if your are not happy</p>
-                    </div>
+      <div class="extra-bg py-5">
+        <div class="container">
+          <h2 class="text-center fw-normal">Extra Benefits</h2>
+          <h4 class="text-center fw-normal">Money Back Gaurantee if it doesn’t tackle bathroom issues</h4>
+          <div class="designe-cards px-2 px-lg-0">
+            <div class="row row-cols-2 row-cols-lg-4 g-4">
+              <div class="col">
+                <div class="card border-0 bg-transparent">
+                  <img src="./images/Layer_1-2.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center px-0">
+                    <h5 class="card-title">Money Back Guarantee</h5>
+                    <p class="card-text">No questions asked money back guarantee if your are not happy</p>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="card border-0 bg-transparent">
-                    <img src="./images/Mask Group 40.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center px-0">
-                      <h5 class="card-title">Quick Shipping</h5>
-                      <p class="card-text">Ships in 1-2 Days guaranteed. Free delivery over £40.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card border-0 bg-transparent">
-                    <img src="./images/Mask Group 41.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center px-0">
-                      <h5 class="card-title">Eco-Friendly</h5>
-                      <p class="card-text">Save 10 plastic bottles per year from entering landfill.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card border-0 bg-transparent">
-                    <img src="./images/Mask Group 42.png" class="card-img-top" alt="...">
-                    <div class="card-body text-center px-0">
-                      <h5 class="card-title">Anytime Refills</h5>
-                      <p class="card-text">Easy top up refills whenever you need</p>
-                    </div>
-                  </div>
-                </div>
-
               </div>
-            </div>
-            <div class="extra-bottom mt-5">
-              <div class="row align-items-center">
-                <div class="col">
-                  <div class="w-75">
-                    <img src="./images/Mask Group 6.png" class="w-100" alt="">
+              <div class="col">
+                <div class="card border-0 bg-transparent">
+                  <img src="./images/Mask Group 40.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center px-0">
+                    <h5 class="card-title">Quick Shipping</h5>
+                    <p class="card-text">Ships in 1-2 Days guaranteed. Free delivery over £40.</p>
                   </div>
                 </div>
-                <div class="col">
-                  <div class="w-85">
-                    <h5>Two women on a mission to <span class="fw-bold">transform cleaning</span></h5>
-                    <p class="mt-4">
-                      Purdy Rubin & Charlotte Figg, an NHS nurse and Horticulturist. They wanted to make cleaning
-                      products that they felt good using; both for themselves and the environment. What started as a
-                      hobby quickly became a movement of 30,000 customers who are demanding more from their cleaning
-                      products.
-                    </p>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-transparent">
+                  <img src="./images/Mask Group 41.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center px-0">
+                    <h5 class="card-title">Eco-Friendly</h5>
+                    <p class="card-text">Save 10 plastic bottles per year from entering landfill.</p>
                   </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card border-0 bg-transparent">
+                  <img src="./images/Mask Group 42.png" class="card-img-top" alt="...">
+                  <div class="card-body text-center px-0">
+                    <h5 class="card-title">Anytime Refills</h5>
+                    <p class="card-text">Easy top up refills whenever you need</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="extra-bottom mt-5">
+            <div class="align-items-center d-lg-flex">
+              <div class="w-lg-50">
+                <div class="extra-bottom-image w-lg-75">
+                  <img src="./images/Mask Group 6.png" class="w-100" alt="">
+                </div>
+              </div>
+              <div class="w-lg-50">
+                <div class="w-lg-85 px-2 px-lg-0 text-center text-lg-start">
+                  <h5 class="mt-4 mt-lg-0">Two women on a mission to <span class="fw-bold">transform cleaning</span>
+                  </h5>
+                  <p class="mt-4">
+                    <span class="d-block d-lg-inline mb-4 mb-lg-0">
+                      Purdy Rubin & Charlotte Figg, an NHS nurse and Horticulturist.
+                    </span> They wanted to make cleaning
+                    products that they felt good using; both for themselves and the environment. What started as a
+                    hobby quickly became a movement of 30,000 customers who are demanding more from their cleaning
+                    products.
+                  </p>
                 </div>
               </div>
             </div>
@@ -428,8 +473,8 @@
       </div>
     </section>
     <section class="bathroom-cleaner-section">
-      <div class="container-fluid px-0">
-        <div class="bathroom-bg d-flex align-items-center">
+      <div class="w-100">
+        <div class="bathroom-bg d-flex align-items-center position-relative">
           <div class="container-fluid">
             <div class="container">
               <div class="bath-card my-5">
@@ -450,7 +495,7 @@
                     </div>
                     <div class="card-bottom text-center">
                       <div class="card-price fw-bold">£29.00</div>
-                      <button class="buyNow-btn w-100 text-white rounded-pill">Buy Now</button>
+                      <button class="buyNow-btn py-3 w-100 text-white rounded-pill">Buy Now</button>
                       <span class="d-block mt-2">
                         100% secure checkout
                         <span class="ms-2"> Money-back guarantee</span>

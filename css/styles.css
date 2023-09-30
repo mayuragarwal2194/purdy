@@ -19,6 +19,10 @@ body {
   width: 85%;
 }
 
+.w-0 {
+  width: 0;
+}
+
 /* Css for Alert Section */
 .alert-section .alert,
 .alert-section .alert a {
@@ -35,6 +39,20 @@ body {
 
 .navbar-brand {
   font-size: 28px;
+  color: #3D4F61 !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #3D4F61;
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3D4F61;
+  font-family: 'Poppins', sans-serif;
+  font-size: 21px;
 }
 
 .userIcon {
@@ -53,10 +71,15 @@ body {
   display: block;
   transition: all ease-out 0.3s;
   border: 1px solid #3D5065;
+  font-size: 20px;
+}
+
+.user-icon i,
+.cart-icon i {
+  color: #3D5065;
   font-size: 21px;
 }
 
-.nav-right .button i,
 .collapse .button i {
   color: #3D5065;
 }
@@ -83,15 +106,20 @@ body {
   color: #fff;
 }
 
+.hamburger-menu-icon {
+  color: #3D4F61;
+}
+
+.nav-bottom,
+.nav-bottom h5 {
+  font-size: 16px;
+}
 
 /* Css for Bathroom Section  */
 
 .bathroom-bg {
   width: 100%;
-  /* height: 717px; */
   height: auto;
-  /* background: url('../images/Group\ 654.png') no-repeat padding-box; */
-  /* background-size: contain; */
   background: url('../images/Group\ 654.png');
   background-repeat: no-repeat;
   background-position: center;
@@ -101,10 +129,6 @@ body {
 .bath-card .card {
   width: unset !important;
   max-width: 610px;
-}
-
-.bath-card .card-body {
-  padding: 43px;
 }
 
 .bath-card .card-text {
@@ -129,7 +153,6 @@ h6 {
   background-color: #3D5065;
   border: 1px solid #3D5065;
   font-family: 'Poppins', sans-serif;
-  padding: 21.5px 0px;
   transition: all ease 0.2s;
   font-size: 24px;
 }
@@ -150,7 +173,12 @@ h6 {
   padding: 125px 0px;
 }
 
-.blitz-body p {
+.blitz-body h3 {
+  font-size: 48px;
+}
+
+.blitz-body p,
+.blitz-body p span {
   font-size: 30px;
   font-family: 'Poppins', sans-serif;
 }
@@ -179,6 +207,10 @@ h6 {
   font-family: 'Poppins', sans-serif;
 }
 
+.moneyBack-bg h5 {
+  font-size: 24px;
+}
+
 .moneyBack-bg .card-bottom button {
   width: 85%;
 }
@@ -187,29 +219,44 @@ h6 {
   font-family: 'Poppins', sans-serif;
 }
 
-.moneyBack-bottom h5 {
+.money-bottom h4 {
   font-size: 48px;
 }
 
-.moneyBack-bottom-cards {
-  width: fit-content;
+.money-card {
+  width: 377px;
 }
 
-.moneyBack-bottom-cards .card-img {
-  height: 520px;
-  width: 350px;
+.money-cards .money-card:nth-child(1) .money-img {
+  background: url(../images/PF_Sept09497FLORALMAX.png);
 }
 
-.moneyBack-bottom-cards .row .col:nth-child(1) .card-img {
-  background-image: url('../images/PF_Sept09497FLORALMAX.png');
+.money-cards .money-card:nth-child(2) .money-img {
+  background: url(../images/PF_Sept09497MAX.png);
 }
 
-.moneyBack-bottom-cards .row .col:nth-child(2) .card-img {
-  background-image: url('../images/PF_Sept09497MAX.png');
+.money-cards .money-card:nth-child(3) .money-img {
+  background: url(../images/PF_Sept09497CTIRUSMAX.png);
 }
 
-.moneyBack-bottom-cards .row .col:nth-child(3) .card-img {
-  background-image: url('../images/PF_Sept09497CTIRUSMAX.png');
+.money-card-sm .money-card:nth-child(1) .money-img {
+  background: url(../images/PF_Sept09497CTIRUSMAX.png) !important;
+}
+
+.money-card .money-img {
+  height: 505px;
+}
+
+.money-card .money-img {
+  box-shadow: 0px 0px 15px #00000029;
+}
+
+.money-card .money-img img {
+  max-height: 505px;
+}
+
+.money-card .money-img button {
+  font-size: 24px;
 }
 
 .addToCart-btn {
@@ -218,17 +265,20 @@ h6 {
   font-family: 'Poppins', sans-serif;
 }
 
-.moneyBack-bottom-cards .card-body .card-price {
+.money-card .card-body .card-price {
   font-size: 40px;
+  font-family: 'Poppins', sans-serif;
 }
 
-.moneyBack-bottom-cards .card-body h4 {
+.money-card .card-body h4 {
   font-size: 36px;
+  font-family: 'Poppins', sans-serif;
 }
 
-.moneyBack-bottom-cards .card-body h5,
-.moneyBack-bottom-cards .card-body i {
+.money-card .card-body h5,
+.money-card .card-body i {
   font-size: 20px !important;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Css For Play Image Section */
@@ -280,6 +330,10 @@ h6 {
   margin-top: 82px;
 }
 
+.different h2 {
+  margin-bottom: 86px;
+}
+
 .different table,
 .different .cross {
   font-size: 18px;
@@ -293,7 +347,25 @@ h6 {
 
 .table td:first-child,
 .table th:first-child {
-  width: 80%;
+  width: 70%;
+}
+
+.table tr th:nth-child(2) {
+  border: 1px solid #707070;
+}
+
+.table tbody tr td:nth-child(2) {
+  background-color: #ffffff;
+  border-left: 1px;
+  border-right: 1px;
+  border-top: 0;
+  border-bottom: 0;
+  border-style: solid;
+  border-color: #707070;
+}
+
+.table tbody tr:last-child td:nth-child(2) {
+  border-bottom: 1px solid #707070;
 }
 
 .table tbody td,
@@ -304,25 +376,6 @@ h6 {
 
 .table tbody tr:nth-child(odd) {
   background-color: #E6F2FE;
-}
-
-/* .table tbody tr{
-  display: flex;
-  align-items: center;
-  flex-basis: 100%;
-} */
-
-.purdy {
-  width: fit-content;
-  top: -5%;
-  right: 22%;
-  border: 1px solid #707070;
-  font-size: 22px;
-  background: #ffffff;
-}
-
-.checkMark {
-  margin-top: 12px;
 }
 
 /* Css for Extra Section */
@@ -343,12 +396,300 @@ h6 {
   font-size: 48px;
 }
 
-.extra-bottom p {
+.extra-bottom p,
+.extra-bottom p span {
   font-size: 24px;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* @media (Max-width:576px) {
-  .moneyBack-bottom-cards .card-img{
-    width: auto;
+
+
+
+@media (max-width:767px) {
+  .money-bottom h4 {
+    font-size: 30px;
   }
-} */
+
+  .money-card .money-img {
+    height: 250px;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
+  .money-card-sm .money-card:nth-child(1) .money-img {
+    height: 250px;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
+  .money-card {
+    width: 100%;
+  }
+
+  .alert-section .alert,
+  .alert-section .alert a {
+    font-size: 14px;
+  }
+
+  .nav-bottom,
+  .nav-bottom h5 {
+    font-size: 13px;
+  }
+
+  .bath-card h5,
+  h6 {
+    font-size: 30px;
+  }
+
+  .bath-card .card-text p {
+    font-size: 5.6vw;
+  }
+
+  .bath-card ul {
+    padding-left: 1rem;
+  }
+
+  .bath-card ul li {
+    font-size: 3.8vw;
+  }
+
+  .bath-card .card-price,
+  .moneyBack-bg .card-price {
+    font-size: 12.8vw;
+  }
+
+  .buyNow-btn {
+    font-size: 5.6vw;
+  }
+
+  .bathroom-bg {
+    height: 40vh;
+  }
+
+  .bathroom-bg .container {
+    position: absolute;
+    left: 0;
+    top: 80%;
+  }
+
+  .blitz-section {
+    margin-top: 530px;
+  }
+
+  .bath-card .card {
+    box-shadow: 0px 0px 25px #00000026;
+  }
+
+  .blitz-body h3 {
+    font-size: 30px;
+  }
+
+  .blitz-body p {
+    font-size: 24px;
+  }
+
+  .blitz-body p span {
+    font-size: 20px;
+  }
+
+  .blitz-body {
+    padding: 3rem;
+  }
+
+  .moneyBack-bg {
+    padding: 0;
+  }
+
+  .moneyBack-bg h1 {
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    margin-top: 32px;
+    padding: 0px 37px;
+  }
+
+  .moneyBack-img {
+    background: url(../images/Group\ 658.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 525px;
+    width: 100%;
+  }
+
+  .trans-sm-negative {
+    transform: translateY(-30px);
+  }
+
+  .moneyBack-bg ul li {
+    font-size: 3.8vw;
+  }
+
+  .moneyBack-bg .card-bottom button {
+    width: 100%;
+  }
+
+  .moneyBack-bg .card-bottom span {
+    font-size: 12px;
+  }
+
+  .play-image h5 {
+    font-size: 23px;
+    line-height: 1.5;
+  }
+
+  .play-image {
+    background: url('../images/Group\ 661.png');
+    background-position: center;
+  }
+
+  .designe-section h2,
+  .extra-bg h2 {
+    font-size: 30px;
+  }
+
+  .designe-cards .card-body h5 {
+    font-size: 24px;
+  }
+
+  .designe-cards {
+    padding-top: 50px;
+  }
+
+  .different .cross,
+  .table tbody {
+    font-size: 18px;
+  }
+
+  .table tr th:nth-child(2) img {
+    width: 52px;
+  }
+
+  .table th {
+    font-size: 12px;
+  }
+
+  .extra-bg h4 {
+    text-decoration: underline;
+  }
+
+  .designe-cards .card-body .card-text {
+    font-size: 18px;
+  }
+
+  .extra-bottom h5 {
+    font-size: 30px;
+  }
+
+  .extra-bottom p {
+    font-size: 20px;
+  }
+
+  .money-card .money-img button {
+    font-size: 18px;
+  }
+
+  .money-card .card-body .card-price {
+    font-size: 22px;
+  }
+
+  .money-card .card-body h4 {
+    font-size: 22px;
+  }
+
+  .money-card .card-body i {
+    font-size: 15px !important;
+  }
+
+  .money-card .card-body h5 {
+    font-size: 10px !important;
+  }
+
+  .money-cards {
+    gap: 1rem !important;
+  }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+  .play-image {
+    background: url('../images/Group\ 661.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .bath-card .card {
+    max-width: unset;
+    width: 100% !important;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .money-card .money-img {
+    height: 400px;
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
+  .money-card {
+    width: 100%;
+  }
+
+  .bath-card .card {
+    max-width: unset;
+  }
+
+  .moneyBack-bg .card-bottom button {
+    width: 100%;
+  }
+
+  .play-image {
+    background: url('../images/Group\ 661.png') no-repeat cover;
+    background-position: center;
+  }
+}
+
+@media (min-width:992px) and (max-width:1200px) {
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+
+  .navbar-light .navbar-nav .nav-link.active,
+  .navbar-light .navbar-nav .show>.nav-link {
+    font-size: 18px;
+  }
+
+  .nav-right .button,
+  .collapse .button {
+    font-size: 13px;
+  }
+
+  .bg-md-transparent {
+    background-color: transparent !important;
+  }
+
+  .play-image {
+    background-position: center;
+  }
+}
+
+@media (min-width:1200px) {
+  .bath-card .card-body {
+    padding: 43px;
+  }
+
+  .bg-lg-transparent {
+    background-color: transparent !important;
+  }
+
+  .w-lg-50 {
+    width: 50%;
+  }
+
+  .w-lg-75 {
+    width: 75%;
+  }
+
+  .w-lg-85 {
+    width: 85%;
+  }
+}
