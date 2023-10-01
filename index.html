@@ -25,64 +25,65 @@
 <body>
   <div class="main">
     <section class="alert-section">
-      <div class="alert text-center text-white rounded-0" role="alert">
-        Get A Free Spray Bottle ( £15 Value) <a href="#" class="alert-link text-white fw-normal">SHOP NOW</a>.
+      <div class="alert text-center text-white rounded-0 mb-0" role="alert">
+        Get A Free Spray Bottle ( £15 Value) <a href="#" class="ms-3 alert-link text-white fw-normal">SHOP NOW</a>.
       </div>
     </section>
     <section class="bootstrap-navbar-section">
-      <div class="container-fluid">
-        <div class="nav-border">
-          <div class="container px-0">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="container-fluid">
-                <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <i class="ri-menu-line hamburger-menu-icon"></i>
-                </button>
-                <a class="navbar-brand me-0" href="#">Purdy & Figg</a>
-                <div class="ms-5 cart-icon d-block d-lg-none">
-                  <i class="ri-shopping-cart-2-line"></i>
-                </div>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto gap-5 mb-2 mb-lg-0 align-items-center">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Shop Cleaning Products</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Our Story</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Learn</a>
-                    </li>
-                    <li class="animate-btn">
-                      <a href="#" class="button position-relative text-decoration-none text-white px-4 py-3">
-                        <span class="animate-btn-span">Shop</span> Starter Kit
-                        <i class="ri-arrow-right-s-line bg-white nav-arrow rounded-circle ms-3"></i>
-                      </a>
-                    </li>
-                    <li class="user-icon">
-                      <i class="ri-user-line"></i>
-                    </li>
-                  </ul>
-                </div>
-                <div class="ms-5 cart-icon d-none d-lg-block">
-                  <i class="ri-shopping-cart-2-line"></i>
-                </div>
+      <div class="w-100">
+        <div class="nav_border">
+          <nav>
+            <div class="main-width d-flex align-items-center py-3 px-12 justify_between_sm position-relative">
+              <div class="hamburger d-inline d-xl-none" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
               </div>
-            </nav>
-          </div>
+              <div class="logo">
+                Purdy & Figg
+              </div>
+              <div class='collapsed_menu ms-lg-auto' id="menu">
+                <ul class='list-unstyled d-xl-flex align-items-center gap-5 mb-0'>
+                  <li class="nav-item">
+                    <a href="#" class='text-decoration-none'>Shop Cleaning Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#ourStory" class='text-decoration-none'>Our Story</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class='text-decoration-none'>Learn</a>
+                  </li>
+                  <div class='nav-item animate_btn'>
+                    <a href="#starterKit" class='button text-decoration-none text-white p-3'>
+                      <span class='animate_btn_span'>Shop</span> Starter Kit
+                      <i class='ri-arrow-right-s-line bg-white rounded-circle ms-3 nav_arrow'></i>
+                    </a>
+                  </div>
+                  <li class='user_icon mt-4 mt-xl-0'>
+                    <a href="#" class='text-decoration-none'>
+                      <i class="ri-user-line"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class='cart_icon ms-lg-5'>
+                <i class="ri-shopping-cart-2-line"></i>
+              </div>
+            </div>
+          </nav>
         </div>
-        <div class="nav-bottom d-flex align-items-center justify-content-center gap-3 my-2">
-          <div class="star">
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-            <i class="ri-star-fill"></i>
-          </div>
-          <h5 class="mb-0">Over 5300+ reviews</h5>
+      </div>
+    </section>
+    <section class="navbar-bottom">
+      <div class='nav_bottom d-flex align-items-center justify-content-center gap-3 my-2'>
+        <div class="star">
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
+          <i class="ri-star-fill"></i>
         </div>
+        <h5 class="mb-0">Over 5300+ reviews</h5>
       </div>
     </section>
     <section class="bathroom-cleaner-section">
@@ -183,7 +184,7 @@
               <img src="./images/Group 652.png" class="img-fluid d-none d-lg-block" alt="">
             </div>
           </div>
-          <div class="money-bottom mt-5 px-3">
+          <div class="money-bottom mt-5 px-3" id="starterKit">
             <h4 class="text-center">Add extras to your cart</h4>
             <div class="money-cards d-flex flex-wrap align-items-center justify-content-center gap-5 mt-4">
               <div class="d-flex align-items-center gap-3">
@@ -446,7 +447,7 @@
 
             </div>
           </div>
-          <div class="extra-bottom mt-5">
+          <div class="extra-bottom mt-5" id="ourStory">
             <div class="align-items-center d-lg-flex">
               <div class="w-lg-50">
                 <div class="extra-bottom-image w-lg-75">
